@@ -1,10 +1,14 @@
 # env_go_docker_kind
-1) Trigger the script
+1) changed the chmod of script
+   
+  chmod 777 env_go_docker_kind.sh
+   
+2) trigger the script
 
-./env_go_docker_kind
+  ./env_go_docker_kind.sh
 
-2)To update env PATHs
+3)  update env PATHs
 
 source .profile
 
-3) Now you can use kind and create the cluster
+4) Now you can use kind and create the cluster
